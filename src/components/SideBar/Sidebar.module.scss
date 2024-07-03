@@ -1,0 +1,25 @@
+@import "../../Styles/variables.scss";
+.nav_items {
+  color: $secondaryColor;
+  transition: 0.2s all ease-in-out;
+  position: relative;
+  &::before {
+    content: "";
+    background: $primary_blue;
+    height: 0%;
+    position: absolute;
+    left: -10px;
+    width: 2px;
+    transition: 0.3s all ease-in-out;
+  }
+  &:hover {
+    color: $primary_blue;
+  }
+  &:hover::before {
+    height: 100%;
+  }
+  &:hover svg {
+    // fill: $primary_blue;
+    stroke: $primary_blue;
+  }
+}

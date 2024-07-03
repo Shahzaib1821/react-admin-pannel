@@ -1,0 +1,40 @@
+const Packagesitems = {
+  Bronze: [
+    "Online visibility optimization",
+    "Reputation management",
+    "Website with 1 page",
+    "Urban advertising",
+    "Dedicated phone number",
+    "Personal marketer (1 hour per month)",
+    "Personal graphic designer (1 hour per month)",
+    "Customized customer service up to 15 calls, then ($*** per call)",
+    "Accountant",
+  ],
+  Silver: [
+    "Online visibility optimization",
+    "Reputation management",
+    "Website with 5 pages (including domain, hosting, email)",
+    "Regional advertising",
+    "Dedicated phone number",
+    "Personal marketer (2 hours per month)",
+    "Personal graphic designer (2 hours per month)",
+    "Customized customer service up to 25 calls, then ($*** per call)",
+    "Accountant",
+    "Legal",
+  ],
+  Gold: [
+    "Online visibility optimization",
+    "Reputation management",
+    "Website with 5 pages or Webshop with 5 products (including domain, hosting, email)",
+    "Nationwide advertising",
+    "Dedicated phone number",
+    "Personal marketer (4 hours per month)",
+    "Personal graphic designer (4 hours per month)",
+    "SEA Advertising on platforms like Google and Bing (starting budget of €200)",
+    "Social media advertising",
+    "Accountant",
+    "Legal",
+  ],
+};
+
+export default Packagesitems;

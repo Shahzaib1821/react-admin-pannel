@@ -1,0 +1,7 @@
+.mesg_banner {
+  background-image: url('../../assets/common/mesgbanner.png');
+  background-size: cover;
+  background-position: center;
+  /* height: 400px; Adjust height as needed */
+  position: relative;
+}
